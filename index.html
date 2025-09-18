@@ -1,48 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script>
-        let num = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-        let doubledNumbers = num.map((n) => n * 2);
-        console.log(doubledNumbers);
-
-        let studentScores = [45, 67, 89, 34, 90, 76, 54];
-        let sorted = studentScores.filter((n) => n > 60);
-        console.log(sorted);
-        const totalScore = studentScores.reduce((sum, score) => sum + score, 0)
-        console.log(totalScore);
-
-        let fruits = ["apple", "banana", "mango", "orange", "pear"];
-        const f = fruits.slice(0,3);
-        console.log(f);
-        // const fs = fruits.splice(fruits.indexOf("mango"), 1, "grapes");
-        // console.log(fs);
-
-        let studentScoress = [45, 67, 89, 34, 90, 76, 54];
-        let ss = studentScoress.find(n=> n > 80);
-        console.log(ss);
-
-        let fruits2 = ["apple", "banana", "mango", "orange", "pear"];
-        let f2 = fruits2.forEach(fruits2 => console.log(fruits2.toUpperCase ()));
-        console.log(f2);
-
-        let names = ['John', 'Jane', 'Mark', 'Mary'];
-        console.log(names.includes('Mark'));
-
-        let numb = [6, 3, 9, 5, 2, 7, 8, 4, 10, 11];
-        const sortedNumbers = numb.sort ((a, b) => a - b);
-        console.log(sortedNumbers);
-
-        let colors1 = ['red', 'blue'];
-        let colors2 = ['green', 'yellow'];
-        let colors = colors1.concat(colors2);
-        console.log(colors);
-    </script>
-</head>
-<body>
+    <link rel="stylesheet" href="index.css" />
+ </head>
+  <body>
+    <!-- <button onclick="alert('This button was clicked')">Click me</button> -->
+    <!-- <button onclick="example()">Click me</button> -->
+     <!-- <button>Click me</button> -->
+    <!-- <h1 id="title">Welcome to DOM</h1> -->
+    <!-- <h2 class="sub">This is an h2 element</h2> -->
+    <!-- <p id="heading">This is a paragraph</p> -->
+    <!-- <input placeholder="Enter your name" /> -->
+    <!-- <button>LOGIN</button> -->
     
-</body>
+    <!-- <button onclick="swi ()">Yes, she is</button>
+    <p>Sha is crazyyyyy</p> -->
+
+    <button>Add to cart</button>
+    <button id="remove-btn">Remove</button>
+    <script src="./index.js"></script>
+  </body>
 </html>
